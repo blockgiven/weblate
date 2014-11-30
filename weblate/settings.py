@@ -503,7 +503,7 @@ SERVER_EMAIL = 'noreply@weblate.org'
 DEFAULT_FROM_EMAIL = 'noreply@weblate.org'
 
 # List of URLs your site is supposed to serve, required since Django 1.5
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Example configuration to use memcached for caching
 # CACHES = {
