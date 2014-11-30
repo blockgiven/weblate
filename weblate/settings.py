@@ -45,22 +45,9 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DATABASES = {
-    'default': {
-        # Use 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'ENGINE': 'django.db.backends.sqlite3',
-        # Database name or path to database file if using sqlite3.
-        'NAME': 'weblate.db',
-        # Database user, not used with sqlite3.
-        'USER': 'weblate',
-        # Database password, not used with sqlite3.
-        'PASSWORD': 'weblate',
-        # Set to empty string for localhost. Not used with sqlite3.
-        'HOST': '127.0.0.1',
-        # Set to empty string for default. Not used with sqlite3.
-        'PORT': '',
-    }
-}
+import dj_database_url
+DATABASES = {}
+DATABASES['default'] =  dj_database_url.config()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
