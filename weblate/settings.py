@@ -40,7 +40,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Block Given', 'block_given@outlook.com'),
 )
 
 MANAGERS = ADMINS
