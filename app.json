@@ -1,0 +1,9 @@
+{
+    "name": "(WIP) Weblate",
+    "description": "weblate, work in progress",
+    "website": "https://github.com/blockgiven/weblate",
+    "addons": ["heroku-postgresql:hobby-dev"],
+    "scripts": {
+	"postdeploy": "./manage.py syncdb && ./manage.py createadmin"
+    }
+}

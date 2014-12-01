@@ -54,6 +54,14 @@ Detailed documentation is available in ``docs`` directory in the sources.
 The documentation can be also viewed online on
 http://docs.weblate.org/.
 
+(WIP) Heroku
+------------
+
+.. image:: https://www.herokucdn.com/deploy/button.png
+    :alt: Deploy to Heroku
+    :target: https://heroku.com/deploy?template=https://github.com/blockgiven/weblate/tree/heroku
+
+
 Installation
 ------------
 
